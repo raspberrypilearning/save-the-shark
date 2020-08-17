@@ -8,8 +8,7 @@ If working **online**, open the [starter project](http://rpf.io/save-the-shark-o
  
 If working **offline**, open the project [starter file](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see...
- 
+
 ![starter project](images/starter_project.png)
 
 --- /task ---
@@ -72,7 +71,8 @@ go to x: (0) y: (-120)
 if <mouse down?> then
 if <(mouse x) < (x position)> then
 change x by (-10)
-if <(mouse x) > (x position)> then
+end
++if <(mouse x) > (x position)> then
 change x by (10)
 ```
 
