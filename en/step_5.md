@@ -25,8 +25,8 @@ Now you can edit the code that reduces the shark's health so that it increases t
 
 ![fish sprite](images/fish-sprite.png)
 
-```blocks
-when I start as clone
+```blocks3
+when I start as a clone
 forever
 if <touching (shark v)> then
 + change (health v) by (1)

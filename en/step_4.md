@@ -38,7 +38,7 @@ Back on the **Plastic** sprite, add some code to reduce the shark's health if it
 
 ![plastic sprite](images/plastic-sprite.png)
 
-```blocks
+```blocks3
 when I start as clone
 forever
 if <touching (shark v)> then
