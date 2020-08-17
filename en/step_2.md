@@ -67,7 +67,7 @@ If the `mouse x`{:class="block3sensing"} position of the cursor is `greater than
 ```blocks3
 when flag clicked
 go to x: (0) y: (-120)
-+forever
+forever
 if <mouse down?> then
 if <(mouse x) < (x position)> then
 change x by (-10)

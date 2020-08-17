@@ -26,7 +26,7 @@ end
 if <(mouse x) > (x position)> then
 change x by (10)
 end
-+if <(health) < (0) then
++if <(health) < (0)> then
 stop (all v)
 ```
 

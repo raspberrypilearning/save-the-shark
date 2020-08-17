@@ -40,10 +40,10 @@ When a clone is created, it should `show`{:class="block3looks"} itself, pick a r
 ![plastic sprite](images/plastic-sprite.png)
 
 ```blocks3
-when I start as clone
+when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick tandom (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (0)
 ```
 --- /task ---
 
@@ -60,10 +60,10 @@ Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operato
 ![plastic sprite](images/plastic-sprite.png)
 
 ```blocks3
-when I start as clone
+when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick tandom (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (0)
 +set (speed v) to (pick random (-1) to (-10))
 +forever
 change y by (speed)
@@ -82,15 +82,15 @@ Add blocks to detect when the plastic sprite hits the bottom of the screen, and 
 ![plastic sprite](images/plastic-sprite.png)
 
 ```blocks3
-when I start as clone
+when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick tandom (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (0)
 set (speed v) to (pick random (-1) to (-10))
 forever
 change y by (speed)
 wait (0.1) seconds
-+if ((y position) < (-180)) then
++if <(y position) < (-180)> then
 delete this clone
 ```
 
