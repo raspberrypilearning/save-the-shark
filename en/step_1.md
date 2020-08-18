@@ -5,18 +5,23 @@ Use Scratch to create a game and save the shark!
 ### What you will make
 
 --- no-print ---
+
 Click to the left and right of the shark to move it. Try to eat the fish and avoid the plastic polution.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/416171540/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
+
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/)
+
 --- /print-only ---
 
 --- collapse ---
+
 ---
 title: What you will need
 ---
@@ -31,6 +36,7 @@ title: What you will need
 --- /collapse ---
 
 --- collapse ---
+
 ---
 title: What you will learn
 ---
@@ -42,6 +48,7 @@ title: What you will learn
 --- /collapse ---
 
 --- collapse ---
+
 ---
 title: Additional information for educators
 ---
@@ -50,4 +57,4 @@ You can find the completed project [here](http://rpf.io/p/en/save-the-shark-get)
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"}.
 
---- /collapse --
+--- /collapse ---
