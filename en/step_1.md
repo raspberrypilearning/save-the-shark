@@ -1,38 +1,32 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Use Scratch to create a game and save the shark!
 
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+Click to the left and right of the shark to move it. Try to eat the fish and avoid the plastic polution.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<iframe src="https://scratch.mit.edu/projects/416171540/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/)
 --- /print-only ---
 
 --- collapse ---
 ---
 title: What you will need
 ---
-### Hardware
+#### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ A Computer or tablet capable of running Scratch
 
-### Software
+#### Software
 
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
@@ -41,9 +35,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to use random numbers to change costumes
++ How to generate annd delete clones
++ How to use random numbers to alter the behavior of clones
 
 --- /collapse ---
 
@@ -52,8 +46,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can find the completed project [here](http://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"}.
 
---- /collapse ---
+--- /collapse --

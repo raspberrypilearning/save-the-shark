@@ -56,6 +56,7 @@ forever
 if <mouse down?> then
 +if <(mouse x) < (x position)> then
 change x by (-10)
+next costume
 ```
 
  --- task ---
@@ -74,6 +75,7 @@ change x by (-10)
 end
 +if <(mouse x) > (x position)> then
 change x by (10)
+next costume
 ```
 
 --- /task ---
