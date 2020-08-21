@@ -10,7 +10,7 @@ Create a new `variable`{:class="block3variables"} called `health`{:class="block3
 
 --- task ---
 
-On the **shark** sprite, when the game starts, the shark's health should be set to `20`, and then when the health gets below `0`{:class="block3variables"} the game should end.
+On the **Shark** sprite, when the game starts, the shark's health should be set to `20`, and then when the health gets below `0`{:class="block3variables"} the game should end.
 
 ![shark sprite](images/shark-sprite.png)
 

@@ -49,7 +49,7 @@ go to x: (pick random (-200) to (200)) y: (0)
 
 --- task ---
 
-You want the speeds that the plastic moves towards the bottom of the screen to be `random`{:class="block3operators"}, so create a new `variable`{:class="block3variables"} called `speed`{:class="block3variables"}
+You want the speed that the plastic moves towards the bottom of the screen to be `random`{:class="block3operators"}, so create a new `variable`{:class="block3variables"} called `speed`{:class="block3variables"}
 
 --- /task ---
 
