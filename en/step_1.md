@@ -16,7 +16,7 @@ Click to the left and right of the shark to move it. Try to eat the fish and avo
 
 --- print-only ---
 
-![Complete project](images/)
+![Complete project](images/complete.png)
 
 --- /print-only ---
 
