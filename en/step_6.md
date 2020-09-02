@@ -2,7 +2,7 @@
 
 In this project, you have:
 + Used random numbers to change the plastic and fish costumes
-+ Learnt how generate and delete clones so they appear to fall away
++ Learnt how to generate and delete clones so they appear to fall away
 + Created complexity in the game by using randomisation
 
 Did you enjoy the project? Have you spotted a mistake? Please click the Send feedback button below and let us know!
