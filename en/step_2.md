@@ -65,6 +65,12 @@ next costume
 
 --- task ---
 
+Click on the green flag to run the program and to test that the shark moves to the left.
+
+--- /task ---
+
+--- task ---
+
 If the `mouse x`{:class="block3sensing"} position of the cursor is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by 10`{:class="block3motion"}, to move right. Add the following blocks:
 
 ![shark sprite](images/shark-sprite.png)
@@ -82,6 +88,12 @@ end
 change x by (10)
 next costume
 ```
+
+--- /task ---
+
+--- task ---
+
+Click on the green flag to run the program and test that the shark moves to the right.
 
 --- /task ---
 
