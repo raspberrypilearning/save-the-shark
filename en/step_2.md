@@ -17,7 +17,7 @@ In the starter project, you should see a shark sprite, against an underwater bac
 
 --- task ---
 
-When the green flag is clicked, the shark should start at the bottom of the screen.
+When the green flag is clicked, the shark should start at the bottom of the screen. Add this code so that the shark starts in the correct position.
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -45,7 +45,9 @@ if <mouse down?> then
 
 --- /task ---
 
-When the mouse is clicked, if the `mouse x`{:class="block3sensing"} position of the cursor is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by -10`{:class="block3motion"}, to move left.
+--- task ---
+
+When the mouse is clicked, if the `mouse x`{:class="block3sensing"} position of the cursor is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by -10`{:class="block3motion"}, to move left. Add the following blocks:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -59,9 +61,11 @@ change x by (-10)
 next costume
 ```
 
- --- task ---
+--- /task ---
 
-If the `mouse x`{:class="block3sensing"} position of the cursor is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by 10`{:class="block3motion"}, to move right.
+--- task ---
+
+If the `mouse x`{:class="block3sensing"} position of the cursor is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by 10`{:class="block3motion"}, to move right. Add the following blocks:
 
 ![shark sprite](images/shark-sprite.png)
 
