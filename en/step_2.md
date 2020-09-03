@@ -65,7 +65,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program and to test that the shark moves to the left.
+Click on the green flag to run the program to test that the shark moves to the left.
 
 --- /task ---
 
@@ -93,7 +93,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program and test that the shark moves to the right.
+Click on the green flag to run the program to test that the shark moves to the right.
 
 --- /task ---
 
