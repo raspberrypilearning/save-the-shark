@@ -35,7 +35,7 @@ wait (pick random (1) to (5)) seconds
 
 --- task ---
 
-When a clone is created, it should `show`{:class="block3looks"} itself, pick a random costume, and then  move to a random `x`{:class="block3motion"} position. Add the following code:
+When a clone is created, it should `show`{:class="block3looks"} itself, pick a random costume, and then  move to a random `x`{:class="block3motion"} position. Add the following code as a new script:
 
 ![plastic sprite](images/plastic-sprite.png)
 
