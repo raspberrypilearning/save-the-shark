@@ -4,7 +4,7 @@ You should see a sprite that looks like a plastic bottle, in your sprites panel 
 
 --- task ---
 
-When the flag is clicked, this sprite needs to move to the top of the screen and then `hide`{:class="block3looks"} itself.
+When the flag is clicked, this sprite needs to move to the top of the screen and then `hide`{:class="block3looks"} itself. Add the following code:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -35,7 +35,7 @@ wait (pick random (1) to (5)) seconds
 
 --- task ---
 
-When a clone is created, it should `show`{:class="block3looks"} itself, pick a random costume, and then  move to a random `x`{:class="block3motion"} position.
+When a clone is created, it should `show`{:class="block3looks"} itself, pick a random costume, and then  move to a random `x`{:class="block3motion"} position. Add the following code:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -49,13 +49,13 @@ go to x: (pick random (-200) to (200)) y: (0)
 
 --- task ---
 
-You want the speed that the plastic moves towards the bottom of the screen to be `random`{:class="block3operators"}, so create a new `variable`{:class="block3variables"} called `speed`{:class="block3variables"}
+You want the speed that the plastic moves towards the bottom of the screen to be `random`{:class="block3operators"}, so create a new `variable`{:class="block3variables"} called `speed`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number, and then move the clone down the stage using the `speed`{:class="block3variables"} variable.
+Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number, and then move the clone down the stage using the `speed`{:class="block3variables"} variable:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -77,7 +77,7 @@ Run your game, and you should see the plastic waste falling from random position
 
 --- task ---
 
-Add blocks to detect when the plastic sprite hits the bottom of the screen, and then deletes itself.
+Add blocks to detect when the plastic sprite hits the bottom of the screen, and then deletes itself:
 
 ![plastic sprite](images/plastic-sprite.png)
 
