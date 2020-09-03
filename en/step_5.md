@@ -35,6 +35,13 @@ delete this clone
 
 --- /task ---
 
+--- task ---
+
+Run the program again to the test that the health of the shark increases if it eats fish?
+
+--- /task ---
+
+
 --- save ---
 
 
