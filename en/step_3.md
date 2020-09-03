@@ -43,7 +43,7 @@ When a clone is created, it should `show`{:class="block3looks"} itself, pick a r
 when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick random (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (200)
 ```
 --- /task ---
 
@@ -63,7 +63,7 @@ Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operato
 when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick random (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (200)
 +set (speed v) to (pick random (-1) to (-10))
 +forever
 change y by (speed)
@@ -85,7 +85,7 @@ Add blocks to detect when the plastic sprite hits the bottom of the screen, and 
 when I start as a clone
 show
 switch costume to (pick random (1) to (4)
-go to x: (pick random (-200) to (200)) y: (0)
+go to x: (pick random (-200) to (200)) y: (200)
 set (speed v) to (pick random (-1) to (-10))
 forever
 change y by (speed)
