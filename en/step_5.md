@@ -1,6 +1,6 @@
 ## Feed the shark
 
-Now when you play the game, the shark needs to avoid the plastic or the game end. In this step, you'll add fish that the shark can eat to increase its health.
+Now when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you'll add fish that the shark can eat to increase its health.
 
 --- task ---
 
