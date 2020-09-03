@@ -47,4 +47,10 @@ delete this clone
 ```
 --- /task ---
 
+--- task ---
+
+Run the program again to test that the health of the shark reduces if it eats plastic.
+
+--- /task ---
+
 --- save ---
