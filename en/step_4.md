@@ -1,10 +1,10 @@
 ## Shark health
 
-In this step, you are going to include health points, using a `variable`{:class="block3variables"}. The health of the shark will reduce if it accidentally eats plastic waste.
+In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `health`{:class="block3variables"}
+Create a new `variable`{:class="block3variables"} called `health`.
 
 --- /task ---
 
