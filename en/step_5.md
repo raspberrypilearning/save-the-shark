@@ -1,6 +1,6 @@
 ## Feed the shark
 
-Now when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you'll add fish that the shark can eat to increase its health.
+At the moment, when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you will add fish that the shark can eat to increase its health.
 
 --- task ---
 
@@ -10,7 +10,7 @@ Add the **Fish** sprite to your project.
 
 --- /task ---
 
-The code for the **Fish** sprite is almost identical to the code on the **Plastic** sprite.
+The code for the **Fish** sprite is almost identical to the code for the **Plastic** sprite.
 
 --- task ---
 
@@ -21,7 +21,7 @@ Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sp
 --- /task ---
 
 --- task ---
-Now you can edit the code that reduces the shark's health so that it increases the health instead.
+Now, you can edit the code that reduces the shark's health so that it increases its health instead.
 
 ![fish sprite](images/fish-sprite.png)
 
