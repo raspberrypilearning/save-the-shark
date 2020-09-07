@@ -34,7 +34,7 @@ stop (all v)
 
 --- task ---
 
-Back on the **Plastic** sprite, add some code to reduce the shark's health if it accidently eats any of the plastic.
+Back on the **Plastic** sprite, add some code to reduce the shark's health if it accidentally eats any of the plastic.
 
 ![plastic sprite](images/plastic-sprite.png)
 
