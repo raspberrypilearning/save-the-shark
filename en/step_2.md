@@ -1,6 +1,6 @@
 ## Move the shark
 
-In this step, you will use code to control the motion of a shark on the Stage using the mouse.
+In this step, you will add code to allow the player to use a mouse to control the motion of a shark on the Stage.
 
 --- task ---
 
@@ -17,7 +17,7 @@ In the starter project, you should see a **Shark** sprite, against an underwater
 
 --- task ---
 
-When the green flag is clicked, the shark should start at the bottom of the screen. Add this code so that the shark starts in the correct position.
+When the green flag is clicked, the shark should start at the bottom of the screen. Add this code so that the **Shark** sprite starts in the correct position:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -32,7 +32,7 @@ To make this project suitable for mobile devices, you will use the location of t
 
 --- task ---
 
-Add a `forever`{:class="block3control"} loop to your script, so that your program can constantly detect when the left mouse button is clicked, then use an `if ... then`{:class="block3control"} block to detect if `mouse down?`{:class="block3sensing"}.
+Your program needs to continuously detect when the left mouse button is clicked. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down?`{:class="block3sensing"}.
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -65,7 +65,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the left.
+Click on the green flag to run the program to test that the shark moves to the left when you click to the left of the shark.
 
 --- /task ---
 
@@ -93,7 +93,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the right.
+Click on the green flag to run the program to test that the shark moves to the right when you click to the right of the shark.
 
 --- /task ---
 
