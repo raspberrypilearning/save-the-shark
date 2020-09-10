@@ -14,21 +14,21 @@ The code for the **Fish** sprite is almost identical to the code for the **Plast
 
 --- task ---
 
-Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sprite.
+Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sprite in the Sprite list.
 
 ![copy scripts](images/copy-scripts.gif)
 
 --- /task ---
 
 --- task ---
-Now, you can edit the code that reduces the shark's health so that it increases its health instead.
+Now, you can edit the code that reduces the shark's health so that it increases its health by `1` instead:
 
 ![fish sprite](images/fish-sprite.png)
 
 ```blocks3
 when I start as a clone
 forever
-if <touching (shark v)> then
+if <touching (Shark v)> then
 + change (health v) by (1)
 delete this clone
 ```
