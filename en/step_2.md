@@ -17,7 +17,7 @@ In the starter project, you should see a **Shark** sprite, against an underwater
 
 --- task ---
 
-When the green flag is clicked, the shark should start at the bottom of the screen. Add this code so that the **Shark** sprite starts in the correct position:
+When the green flag is clicked, the shark needs to start at the bottom of the Stage. Add this code so that the **Shark** sprite starts in the correct position:
 
 ![shark sprite](images/shark-sprite.png)
 
