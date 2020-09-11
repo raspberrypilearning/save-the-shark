@@ -8,11 +8,11 @@ In this step, you will add code to allow the player to use a mouse to control th
  
 **Offline:** open the [project starter file](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
-![starter project](images/starter_project.png)
-
 --- /task ---
 
 In the starter project, you should see a **Shark** sprite, against an underwater background.
+
+![starter project](images/starter_project.png)
 
 --- task ---
 
