@@ -1,10 +1,12 @@
 ## Add plastic waste
 
-You should see a sprite that looks like a plastic bottle in your Sprite list below the Stage. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
+In this step, you will add plastic waste to your game.
+
+In the Sprite list below the Stage, click on the sprite that looks like a plastic bottle. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
 
 --- task ---
 
-When the green flag is clicked, the **Plastic** sprite needs to move to the top of the Stage and then `hide`{:class="block3looks"}. Add the following code:
+When the green flag is clicked, the **Plastic** sprite needs to move to the top of the Stage and then `hide`{:class="block3looks"}. Add the following code to the **Plastic** sprite:
 
 ![plastic sprite](images/plastic-sprite.png)
 
