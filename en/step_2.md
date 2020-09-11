@@ -32,7 +32,7 @@ To make this project suitable for mobile devices, you will use the location of t
 
 --- task ---
 
-Your program needs to continuously detect when the left mouse button is clicked. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down?`{:class="block3sensing"}.
+Your program needs to continuously detect when the left mouse button is clicked. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -47,7 +47,7 @@ if <mouse down?> then
 
 --- task ---
 
-When the mouse is clicked, if the `mouse x`{:class="block3sensing"} position of the cursor is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by`{:class="block3motion"}`-10` to move to the left. Add the following blocks:
+The **Shark** sprite needs to move to the left if your cursor click is closer to the left-hand side of the Stage than the **Shark** sprite's position. In other words, `if`{:class="block3control"} the `mouse x`{:class="block3sensing"} position of the cursor is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"}`-10` to move to the left. Add the following blocks:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -71,7 +71,7 @@ Click on the green flag to run the program to test that the shark moves to the l
 
 --- task ---
 
-If the `mouse x`{:class="block3sensing"} position of the cursor is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, then the sprite should `change x by`{:class="block3motion"}`10` to move to the right. Add the following blocks:
+When the mouse is clicked, `if`{:class="block3control"} the `mouse x`{:class="block3sensing"} position of the cursor is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"}`10` to move to the right. Add the following blocks:
 
 ![shark sprite](images/shark-sprite.png)
 
