@@ -1,7 +1,7 @@
 ## What next?
 
 In this project, you have:
-+ Picked `random`{:class="block3operators"} numbers to change the plastic and fish costumes
++ Picked `random`{:class="block3operators"} numbers to change the **Plastic** and **Fish** sprites' costumes
 + Learned how to generate and delete `clones`{:class="block3control"} so that they appear to fall away
 + Used randomisation to create complexity in the game
 
