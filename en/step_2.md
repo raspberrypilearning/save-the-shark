@@ -32,7 +32,7 @@ To make this project suitable for mobile devices, you will use the location of t
 
 --- task ---
 
-Your program needs to continuously detect when the left mouse button is clicked. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
+Your program needs to continuously detect when the left mouse button is pressed. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
 
 ![shark sprite](images/shark-sprite.png)
 
