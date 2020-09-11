@@ -2,7 +2,7 @@
 
 Use Scratch to create a game and save the shark! Explore sharks' favourite food source (fish, not humans!) as well as the impact of plastic in the water — harming sharks in their natural ocean habitat.
 
-This game engages with two of the United Nations Sustainable Development Goals: [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"} and [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} .
+This game engages with two of the United Nations Sustainable Development Goals: [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"} and [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}.
 
 ### What you will make
 
