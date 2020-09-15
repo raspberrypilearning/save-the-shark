@@ -79,7 +79,7 @@ Run your game, and you should see the plastic waste falling from random position
 
 --- task ---
 
-Add blocks so that the **Plastic** sprite detects when it hits the bottom of the Stage, and then deletes itself:
+Add a `delete this clone`{:class="block3control"} block so that the **Plastic** sprite deletes itself when it hits the bottom of the Stage:
 
 ![plastic sprite](images/plastic-sprite.png)
 
