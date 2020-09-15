@@ -92,6 +92,7 @@ set (speed v) to (pick random (-1) to (-10))
 repeat until <(y position) < (-180)>
 change y by (speed)
 wait (0.1) seconds
+end
 +delete this clone
 ```
 
