@@ -46,7 +46,11 @@ if <mouse down?> then
 
 --- task ---
 
-The **Shark** sprite needs to move to the left if your cursor click is closer to the left-hand side of the Stage than the **Shark** sprite's position. In other words, `if`{:class="block3control"} the `mouse x`{:class="block3sensing"} position of the cursor is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"} `-10` to move to the left. Add the following blocks:
+If the user clicks the cursor closer to the left-hand side of the Stage than the **Shark** sprite's position, then the **Shark** sprite moves to the left.
+
+This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
+
+To get the program to respond to where the user clicks, add the following blocks:`if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the **Shark** sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"} `-10` to move to the left:
 
 ![shark sprite](images/shark-sprite.png)
 
