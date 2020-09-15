@@ -67,7 +67,7 @@ show
 switch costume to (pick random (1) to (4)
 go to x: (pick random (-200) to (200)) y: (200)
 +set (speed v) to (pick random (-1) to (-10))
-+repeat until <(y position) < (-180)> then
++repeat until <(y position) < (-180)>
 change y by (speed)
 wait (0.1) seconds
 
@@ -89,7 +89,7 @@ show
 switch costume to (pick random (1) to (4)
 go to x: (pick random (-200) to (200)) y: (200)
 set (speed v) to (pick random (-1) to (-10))
-repeat until <(y position) < (-180)> then
+repeat until <(y position) < (-180)>
 change y by (speed)
 wait (0.1) seconds
 +delete this clone
