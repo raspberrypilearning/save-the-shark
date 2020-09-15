@@ -57,7 +57,7 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number, and then move the clone down the Stage using the `speed`{:class="block3variables"} variable. Add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
+Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
 
 ![plastic sprite](images/plastic-sprite.png)
 
