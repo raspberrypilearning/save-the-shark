@@ -4,6 +4,6 @@ You can share your completed Scratch project with your friends and family. To do
 
 [[[share-scratch]]]
 
-+ If you are in a club, why not demonstrate your project to friends and peers
+If you are in a club, why not demonstrate your project to friends and peers?
 
-+ Based on their feedback, do one thing to improve your project
+Based on their feedback, do one thing to improve your project.
