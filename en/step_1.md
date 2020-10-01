@@ -43,9 +43,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use `random`{:class="block3operators"} numbers to change costumes
++ How to use `random`{:class="block3operators"} numbers to change costumes and alter the behaviour of `clones`{:class="block3control"}
 + How to generate and delete `clones`{:class="block3control"} 
-+ How to use `random`{:class="block3operators"} numbers to alter the behaviour of `clones`{:class="block3control"}
++ How to create a game to raise awareness about an environmental issue
 
 --- /collapse ---
 
