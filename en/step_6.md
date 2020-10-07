@@ -1,10 +1,9 @@
-## What next?
+## Share your project
 
-In this project, you have:
-+ Picked `random`{:class="block3operators"} numbers to change the **Plastic** and **Fish** sprites' costumes
-+ Learned how to generate and delete `clones`{:class="block3control"} so that they appear to fall away
-+ Used randomisation to create complexity in the game
+You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+[[[share-scratch]]]
 
-If you want to explore Scratch some more, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch).
+If you are in a club, why not demonstrate your project to friends and peers?
+
+Based on their feedback, do one thing to improve your project.

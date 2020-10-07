@@ -57,7 +57,7 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number, and then move the clone down the Stage using the `speed`{:class="block3variables"} variable:
+Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -67,7 +67,7 @@ show
 switch costume to (pick random (1) to (4)
 go to x: (pick random (-200) to (200)) y: (200)
 +set (speed v) to (pick random (-1) to (-10))
-+forever
++repeat until <(y position) < (-180)>
 change y by (speed)
 wait (0.1) seconds
 
@@ -79,7 +79,7 @@ Run your game, and you should see the plastic waste falling from random position
 
 --- task ---
 
-Add blocks so that the **Plastic** sprite detects when it hits the bottom of the Stage, and then deletes itself:
+Add a `delete this clone`{:class="block3control"} block so that the **Plastic** sprite deletes itself when it hits the bottom of the Stage:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -89,11 +89,11 @@ show
 switch costume to (pick random (1) to (4)
 go to x: (pick random (-200) to (200)) y: (200)
 set (speed v) to (pick random (-1) to (-10))
-forever
+repeat until <(y position) < (-180)>
 change y by (speed)
 wait (0.1) seconds
-+if <(y position) < (-180)> then
-delete this clone
+end
++delete this clone
 ```
 
 --- /task ---
