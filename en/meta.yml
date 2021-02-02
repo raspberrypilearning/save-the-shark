@@ -2,7 +2,7 @@ title: Save the shark
 hero_image: images/banner.png
 description: Create a game to save the shark from plastic pollution and improve its health
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2020-08-17"
 steps:

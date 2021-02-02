@@ -27,7 +27,7 @@ go to x: (0) y: (-120)
 
 --- /task ---
 
-To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of the shark.
+To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of the shark. Luckily, Scratch's `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
 
 --- task ---
 
