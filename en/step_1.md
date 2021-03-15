@@ -55,7 +55,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can [find the completed project here](http://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
+You can [find the completed project here](https://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"}.
 
