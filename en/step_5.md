@@ -37,6 +37,14 @@ delete this clone
 
 --- task ---
 
+Set the **Fish** sprite size property to `40` percent and the direction property to `180` degrees. 
+
+![the size and direction properties for the fish sprite.](images/fish-properties.png)
+
+--- /task ---
+
+--- task ---
+
 Run the program again to test that the health of the shark increases if it eats fish.
 
 --- /task ---
