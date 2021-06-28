@@ -51,7 +51,11 @@ go to x: (pick random (-200) to (200)) y: (200)
 
 --- task ---
 
-You want the plastic to move towards the bottom of the Stage at a  `random`{:class="block3operators"} speed, so create a new `variable`{:class="block3variables"} called `speed`.
+You want the plastic to move towards the bottom of the Stage at a  `random`{:class="block3operators"} speed, so create a new `variable`{:class="block3variables"} called `speed`. Set it to 'for this sprite only'.
+
+![new variable menu](images/speed-variable.png)
+
+
 
 --- /task ---
 
