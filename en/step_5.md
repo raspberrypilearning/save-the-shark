@@ -21,6 +21,7 @@ Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sp
 --- /task ---
 
 --- task ---
+
 Now, you can edit the code that reduces the shark's health so that it increases its health by `1` instead:
 
 ![fish sprite](images/fish-sprite.png)

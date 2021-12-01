@@ -47,6 +47,7 @@ show
 switch costume to (pick random (1) to (4)
 go to x: (pick random (-200) to (200)) y: (200)
 ```
+
 --- /task ---
 
 --- task ---
