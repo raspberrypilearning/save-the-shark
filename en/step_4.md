@@ -45,6 +45,7 @@ if <touching (Shark v)> then
 change (health v) by (-5)
 delete this clone
 ```
+
 --- /task ---
 
 --- task ---
