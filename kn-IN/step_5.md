@@ -1,30 +1,30 @@
-## Feed the shark
+## ಶಾರ್ಕ್‌ಗೆ ಆಹಾರ ನೀಡಿ
 
-At the moment, when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you will add fish that the shark can eat to increase its health.
+ಈ ಸಮಯದಲ್ಲಿ, ನೀವು ಆಟವನ್ನು ಆಡುವಾಗ, ಶಾರ್ಕ್ ಪ್ಲಾಸ್ಟಿಕ್‌ನ್ನು ತಪ್ಪಿಸಬೇಕು ಇಲ್ಲವಾದರೆ ಆಟವು ಕೊನೆಗೊಳ್ಳುತ್ತದೆ. ಈ ಹಂತದಲ್ಲಿ, ಶಾರ್ಕ್‌ ತನ್ನ ಆರೋಗ್ಯ ಹೆಚ್ಚಿಸಲು ತಿನ್ನಬಹುದಾದ ಮೀನನ್ನು ನೀವು ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Add the **Fish** sprite to your project.
+**Fish** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಸೇರಿಸಿ.
 
-![image showing search and selection of fish sprite](images/add-fish.png)
+![ಮೀನು ಸ್ಪ್ರೈಟ್‌ನ ಹುಡುಕಲು ಮತ್ತು ಆಯ್ಕೆಯನ್ನು ತೋರಿಸುವ ಚಿತ್ರ](images/add-fish.png)
 
 --- /task ---
 
-The code for the **Fish** sprite is almost identical to the code for the **Plastic** sprite.
+**Fish** ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್‌ ಬಹುತೇಕ **Plastic** ಸ್ಪ್ರೈಟ್‌ ಕೋಡ್‌ನ್ನು ಹೋಲುತ್ತದೆ.
 
 --- task ---
 
-Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sprite in the Sprite list.
+Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿರುವ **Plastic** ಸ್ಪ್ರೈಟ್‌ನ ಮೂರು ಬರಹಗಳನ್ನು ಎಳೆದು **Fish** ಸ್ಪ್ರೈಟ್‌ಗೆ ಹಾಕಿ.
 
-![copy scripts](images/copy-scripts.gif)
+![ಬರಹಗಳನ್ನು ನಕಲು ಮಾಡಿ](images/copy-scripts.gif)
 
 --- /task ---
 
 --- task ---
 
-Now, you can edit the code that reduces the shark's health so that it increases its health by `1` instead:
+ಈಗ, ನೀವು ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು ಕುಗ್ಗಿಸುವ ಕೋಡ್‌ನ್ನು ಎಡಿಟ್‌ ಮಾಡಬಹುದು ಅದರಿಂದ ಅದು ಕುಗ್ಗಿಸುವ ಬದಲು `1` ರಷ್ಟು ಹೆಚ್ಚಿಸುತ್ತದೆ:
 
-![fish sprite](images/fish-sprite.png)
+![ಮೀನು ಸ್ಪ್ರೈಟ್](images/fish-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -38,15 +38,15 @@ delete this clone
 
 --- task ---
 
-Set the **Fish** sprite size property to `40` percent and the direction property to `180` degrees.
+**Fish** ಸ್ಪ್ರೈಟ್‌ನ ಗಾತ್ರದ ಗುಣಲಕ್ಷಣವನ್ನು ಶೇಕಡಾ `40` ಗೆ ಹೊಂದಿಸಿ ಮತ್ತು ದಿಕ್ಕಿನ ಗುಣಲಕ್ಷಣವನ್ನು `180` ಡಿಗ್ರಿಗಳಿಗೆ ಹೊಂದಿಸಿ.
 
-![the size and direction properties for the fish sprite.](images/fish-properties.png)
+![ಮೀನು ಸ್ಪ್ರೈಟ್‌ಗೆ ಗಾತ್ರದ ಮತ್ತು ದಿಕ್ಕಿನ ಗುಣಲಕ್ಷಣಗಳು.](images/fish-properties.png)
 
 --- /task ---
 
 --- task ---
 
-Run the program again to test that the health of the shark increases if it eats fish.
+ಮೀನನ್ನು ತಿಂದರೆ ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯ ಹೆಚ್ಚುತ್ತದೆ ಎಂದು ಪರೀಕ್ಷಿಸಲು ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಮತ್ತೊಮ್ಮೆ ರನ್ ಮಾಡಿ.
 
 --- /task ---
 
