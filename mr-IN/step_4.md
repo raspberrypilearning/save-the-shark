@@ -1,18 +1,18 @@
-## Monitor the shark's health
+## शार्कच्या आरोग्यावर लक्ष ठेवा
 
-In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
+या टप्प्यात, तुम्ही आरोग्य सुत्रासह `variable`{:class="block3variables"} वापराल. शार्कने अचानकपणे प्लास्टीक कचरा खाल्ल्यास त्याचे आरोग्य कमी होईल.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `health`.
+नवीन `variable`{:class="block3variables"} तयार करा ज्याला `health` म्हणतात.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Shark** sprite in the Sprite list. Add blocks so that when the game starts, the shark's health is set to `20`, and when the shark's health goes below `0`, the game ends:
+Sprite लीस्टमधील **Shark** स्प्राईटवर क्लिक करा. ब्लॉक्स जोडा जेणेकरून गेम चालू झाल्यावर, शार्कचे आरोग्य `20` ला सेट होईल, आणि शार्कचे आरोग्य `0` पेक्षा कमी झाल्यास, गेम समाप्त होईल:
 
-![shark sprite](images/shark-sprite.png)
+![shark स्प्राईट](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,9 +34,9 @@ stop (all v)
 
 --- task ---
 
-Go back to the **Plastic** sprite. Add some code to reduce the shark's health by `-5` if it accidentally eats any of the plastic:
+**Plastic** स्प्राईटवर परत जा. शार्कने अचानकपणे कोणतेही प्लास्टीक खाल्ल्यास शार्कचे आरोग्य `-5` ने कमी होण्यासाठी काही कोड जोडा:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -50,7 +50,7 @@ delete this clone
 
 --- task ---
 
-Run the program again to test that the health of the shark reduces if it eats plastic.
+शार्कने प्लास्टीक खाल्ल्यावर त्याचे आरोग्य कमी होते का हे तपासण्यासाठी पुन्हा प्रोग्राम रन करा.
 
 --- /task ---
 
