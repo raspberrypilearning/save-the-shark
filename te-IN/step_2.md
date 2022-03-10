@@ -50,7 +50,7 @@ if <mouse down?> then
 
 X అక్షం వెంట కర్సర్ యొక్క స్థానం `mouse x`{:class="block3sensing"} బ్లాక్‌లో నిల్వ చేయబడినందున ఈ చర్య సాధ్యమవుతుంది.
 
-యూజర్ ఎక్కడ క్లిక్ చేస్తారో దానికి ప్రోగ్రామ్‌ ప్రతిస్పందించేలా చేయడానికి, క్రింది బ్లాక్‌లను జోడించండి: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} **Shark** sprite యొక్క `x position `{:class="block3motion"} కంటే `less than `{:class=" block3operators"} ఉంటే `then`{:class="block3control"} sprite ఎడమవైపుకు వెళ్లడానికి `change x by ` {:class="block3motion"} `-10` కి మార్చాలి:
+యూజర్ ఎక్కడ క్లిక్ చేస్తారో దానికి ప్రోగ్రామ్‌ ప్రతిస్పందించేలా చేయడానికి, క్రింది బ్లాక్‌లను జోడించండి: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} **Shark** sprite యొక్క `x position `{:class="block3motion"} కంటే `less than `{:class=" block3operators"} ఉంటే `then`{:class="block3control"} sprite ఎడమవైపుకు వెళ్లడానికి `change x by`{:class="block3motion"} `-10` కి మార్చాలి:
 
 ![shark sprite](images/shark-sprite.png)
 
