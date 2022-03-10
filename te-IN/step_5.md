@@ -1,28 +1,28 @@
-## Feed the shark
+## సొరచేపకు ఆహారం ఇవ్వండి
 
-At the moment, when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you will add fish that the shark can eat to increase its health.
+ప్రస్తుతానికి, మీరు గేమ్ ఆడుతున్నప్పుడు, షార్క్ ప్లాస్టిక్‌ను నివారించాలి లేదా గేమ్ ముగుస్తుంది. ఈ దశలో, మీరు షార్క్ తన ఆరోగ్యాన్ని పెంచుకోవడానికి తినగలిగే చేపలను జోడించవచ్చు.
 
 --- task ---
 
-Add the **Fish** sprite to your project.
+మీ ప్రాజెక్ట్‌కి **Fish** sprite ని జోడించండి.
 
-![image showing search and selection of fish sprite](images/add-fish.png)
+![fish sprite శోధన మరియు ఎంపికను చూపుతున్న చిత్రం](images/add-fish.png)
 
 --- /task ---
 
-The code for the **Fish** sprite is almost identical to the code for the **Plastic** sprite.
+**Fish** sprite కోడ్ దాదాపు **Plastic** sprite కోడ్‌తో సమానంగా ఉంటుంది.
 
 --- task ---
 
-Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sprite in the Sprite list.
+Sprite జాబితాలోని ** Plastic ** sprite నుండి ** Fish ** sprite కు మూడు స్క్రిప్ట్లను డ్రాగ్ చేసి డ్రాప్ చేయండి.
 
-![copy scripts](images/copy-scripts.gif)
+![స్క్రిప్ట్‌లను కాపీ చేయండి](images/copy-scripts.gif)
 
 --- /task ---
 
 --- task ---
 
-Now, you can edit the code that reduces the shark's health so that it increases its health by `1` instead:
+ఇప్పుడు, మీరు సొరచేప ఆరోగ్యాన్ని తగ్గించే కోడ్‌ని సవరించవచ్చు, తద్వారా అది దాని ఆరోగ్యాన్ని `1` పెంచుతుంది:
 
 ![fish sprite](images/fish-sprite.png)
 
@@ -38,15 +38,15 @@ delete this clone
 
 --- task ---
 
-Set the **Fish** sprite size property to `40` percent and the direction property to `180` degrees.
+**Fish** sprite సైజ్ ప్రాపర్టీని `40` శాతానికి మరియు డైరెక్షన్ ప్రాపర్టీని `180` డిగ్రీలకు సెట్ చేయండి.
 
-![the size and direction properties for the fish sprite.](images/fish-properties.png)
+![fish sprite కోసం పరిమాణం మరియు దిశ లక్షణాలు.](images/fish-properties.png)
 
 --- /task ---
 
 --- task ---
 
-Run the program again to test that the health of the shark increases if it eats fish.
+చేపలను తింటే షార్క్ ఆరోగ్యం పెరుగుతుందో లేదో పరీక్షించడానికి ప్రోగ్రామ్‌ను మళ్లీ అమలు చేయండి.
 
 --- /task ---
 
