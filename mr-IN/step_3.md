@@ -1,14 +1,14 @@
-## Add plastic waste
+## प्लास्टिक कचरा जोडा
 
-In this step, you will add plastic waste to your game.
+या टप्प्यात, तुम्ही तुमच्या गेममध्ये प्लास्टिकचा कचरा जोडाल.
 
-In the Sprite list below the Stage, click on the sprite that looks like a plastic bottle. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
+Stage खालील Sprite लीस्टमध्ये, प्लास्टीक बॉटल सारख्या दिसणाऱ्या स्प्राईटवर क्लिक करा. या स्प्राईटला चार कॉश्चुम आहेत: बॉटल, रॅपर, बॅग आणि प्लास्टीक कॅन होल्डर.
 
 --- task ---
 
-When the green flag is clicked, the **Plastic** sprite needs to move to the top of the Stage and then `hide`{:class="block3looks"}. Add the following code to the **Plastic** sprite:
+हिरव्या झेंड्यावर क्लिक केल्यावर, **Plastic** स्प्राईटने Stage च्या वर हलायला हवे आणि त्यानंतर `hide`{:class="block3looks"}. **Plastic** स्प्राईटला खालील कोड जोडा:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -20,9 +20,9 @@ hide
 
 --- task ---
 
-The **Plastic** sprite now needs to randomly generate clones of itself. Add the following code:
+**Plastic** स्प्राईटला आता स्वतःचे कोणतेही क्लोन्स तयार करण्याची आवश्यकता आहे. खालील कोड जोडा:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,9 +37,9 @@ wait (pick random (1) to (5)) seconds
 
 --- task ---
 
-When a clone is created, the clone needs to `show`{:class="block3looks"} itself, pick a `random`{:class="block3operators"} `costume`{:class="block3looks"}, and then move to a `random`{:class="block3operators"} `x`{:class="block3motion"} position. Add the following code as a new script:
+क्लोन तयार झाल्यावर, क्लोनने स्वतःचा `show`{:class="block3looks"} दाखवावे, `random`{:class="block3operators"} `costume`{:class="block3looks"} निवडा, त्यानंतर `random`{:class="block3operators"} `x`{:class="block3motion"} पोजिशनला जा. नवीन स्क्रिप्ट म्हणून खालील कोड जोडा:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -52,9 +52,9 @@ go to x: (pick random (-200) to (200)) y: (200)
 
 --- task ---
 
-You want the plastic to move towards the bottom of the Stage at a  `random`{:class="block3operators"} speed, so create a new `variable`{:class="block3variables"} called `speed`. Set it to `For this sprite only`:
+तुम्हाला Stage च्या खालील भागाकडे `random`{:class="block3operators"} वेगाने जाणारे प्लास्टीक हवे आहे, त्यामुळे नवीन `variable`{:class="block3variables"} तयार करा ज्याला `speed` म्हणतात. ते `For this sprite only` सेट करा:
 
-![new variable menu](images/speed-variable.png)
+![नवीन व्हेरिएबल मेनू](images/speed-variable.png)
 
 
 
@@ -62,9 +62,9 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
+`speed`{:class="block3variables"} `random`{:class="block3operators"} संख्या असण्यासाठी सेट करा. `repeat until`{:class="block3control"} ब्लॉक वापरा जो क्लोन y अक्षावर (stage च्या खाली) `-180` वर केव्हा पोहोचतो ते ठरवेल. क्लोन Stage च्या खाली `speed`{:class="block3variables"} व्हेरिएबल वापरून हलवा. आणि शेवटी, `wait`{:class="block3control"} ब्लॉक जोडा `0.1` सेकंद व्हॅल्यूसह जेणेकरून तुम्ही हालचाल बघू शकता:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -80,13 +80,13 @@ wait (0.1) seconds
 
 --- /task ---
 
-Run your game, and you should see the plastic waste falling from random positions and at random speeds from the top of the Stage. The problem is that the waste accumulates at the bottom of the Stage, and stays there.
+तुमचा गेम रन करा, आणि तुम्ही Stage च्या वरच्या भागातून कोणत्याही वेगाने आणि कोणत्याही पोजिशन मधून पडणारा प्लास्टीक कचरा बघायला हवा. कचरा Stage च्या खालच्या भागात जमा होतो, आणि तेथेच रहातो ही समस्या आहे.
 
 --- task ---
 
-Add a `delete this clone`{:class="block3control"} block so that the **Plastic** sprite deletes itself when it hits the bottom of the Stage:
+`delete this clone`{:class="block3control"} ब्लॉक जोडा जेणेकरून **Plastic** स्प्राईट्स Stage च्या खाली हिट होतो त्यावेळी स्वतःच डिलीट होईल:
 
-![plastic sprite](images/plastic-sprite.png)
+![plastic स्प्राईट](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
