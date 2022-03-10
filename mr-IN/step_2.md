@@ -1,24 +1,24 @@
-## Move the shark
+## शार्क हलवा
 
-In this step, you will add code to allow the player to use a mouse to control the motion of a shark on the Stage.
+या टप्प्यात, तुम्ही प्लेयरला Stage वरील शार्कची हालचाल नियंत्रीत करण्यासाठी माऊसचा वापर करण्याची परवानगी द्याल.
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/save-the-shark-on){:target="_blank"} in Scratch.
+**ऑनलाईन:** Scratch मधील [स्टार्टर प्रोजेक्ट](http://rpf.io/save-the-shark-on){:target="_blank"} उघडा.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**ऑफलाईन:** Scratch ऑफलाईन एडिटरमधील [प्रोजेक्ट स्टार्टर फाईल](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} उघडा. तुम्हाला आवश्यकता असल्यास, तुम्ही [येथे Scratch डाऊनलोड आणि इंस्टॉल करू शकता](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
-In the starter project, you should see a **Shark** sprite, against an underwater background.
+स्टार्टर प्रोजेक्टमध्ये, तुम्ही पाण्याखालील बॅकग्राऊंडमधील **Shark** स्प्राईट बघायला हवा.
 
-![starter project](images/starter_project.png)
+![स्टार्टर प्रोजेक्ट](images/starter_project.png)
 
 --- task ---
 
-When the green flag is clicked, the shark needs to start at the bottom of the Stage. Add this code so that the **Shark** sprite starts in the correct position:
+हिरव्या झेंड्यावर क्लिक केल्यावर, शार्कने Stage च्या खालच्या भागात सुरूवात करायला हवी. हा कोड जोडा जेणेकरून **Shark** स्प्राईट योग्य पोजिशनमध्ये सुरूवात करेल:
 
-![shark sprite](images/shark-sprite.png)
+![shark स्प्राईट](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -27,13 +27,13 @@ go to x: (0) y: (-120)
 
 --- /task ---
 
-To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of the shark. Luckily, Scratch's `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
+हा प्रोजेक्ट सर्व मोबाईल डिव्हाईससाठी सोयीस्कर बनविण्यासाठी, माऊसचे लेफ्ट बटन दाबल्यावर, किंवा बोट स्क्रीनला टच झाल्यावर, शार्कची हालचाल नियंत्रीत करण्यासाठी तुम्ही कर्सरचे लोकेशन वापराल. नशीबाने, माऊस बटनवरील बोट आणि टचस्क्रीन साठी Scratch चा `mouse down`{:class="block3sensing"} ब्लॉक कार्य करतो!
 
 --- task ---
 
-Your program needs to continuously detect when the left mouse button is pressed. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
+माऊसचे लेफ्ट बटन दाबल्यावर तुमच्या प्रोग्रामने सातत्याने शोधणे आवश्यक आहे. हे करण्यासाठी, `forever`{:class="block3control"} लूप तुमच्या स्क्रिप्टला जोडा, त्यानंतर `if ... then`{:class="block3control"} ब्लॉक वापरा `mouse down`{:class="block3sensing"} आहे का ते शोधण्यासाठी:
 
-![shark sprite](images/shark-sprite.png)
+![shark स्प्राईट](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,13 +46,13 @@ if <mouse down?> then
 
 --- task ---
 
-If the user clicks the cursor closer to the left-hand side of the Stage than the **Shark** sprite's position, then the **Shark** sprite moves to the left.
+यूजरने Stage च्या डाव्या-हात्या बाजूच्या जवळ असलेल्या कर्सरवर क्लिक केल्यास **Shark** स्प्राईट पोजिशन घेतो, त्यानंतर **Shark** स्प्राईट डावीकडे हलतो.
 
-This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
+ही कृती शक्य आहे कारण x अक्षाकडील कर्सरची पोजिशन `mouse x`{:class="block3sensing"} ब्लॉकमध्ये स्टोअर असते.
 
-To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the **Shark** sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"} `-10` to move to the left:
+यूजरने क्लिक केल्यावर प्रोग्रामने प्रतिसाद देण्यासाठी, खालील ब्लॉक्स जोडा: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} आहे `less than`{:class="block3operators"} `x position`{:class="block3motion"} च्या **Shark** स्प्राईट, `then`{:class="block3control"} स्प्राईटने `change x by`{:class="block3motion"} `-10` बदलावी डावीकडे हलण्यासाठी:
 
-![shark sprite](images/shark-sprite.png)
+![shark स्प्राईट](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -68,15 +68,15 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the left when you click to the left of the shark.
+तुम्ही शार्कच्या डावीकडे क्लिक केल्यावर शार्क डावीकडे हलतो का ते तपासण्यासाठी प्रोग्राम रन करण्यास हिरव्या झेंड्यावर क्लिक करा.
 
 --- /task ---
 
 --- task ---
 
-When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} the **Shark** sprite should `change x by`{:class="block3motion"} `10` to move to the right. Add the following blocks:
+माऊसवर क्लिक केल्यावर, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} हा `greater than`{:class="block3operators"} `x position`{:class="block3motion"}, `then`{:class="block3control"} **Shark** स्प्राईट उजवीकडे हलण्यासाठी `change x by`{:class="block3motion"} `10` हवा. खालील कोड जोडा:
 
-![shark sprite](images/shark-sprite.png)
+![shark स्प्राईट](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -96,7 +96,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the right when you click to the right of the shark.
+जेव्हा तुम्ही शार्कच्या उजवीकडे क्लिक करता तेव्हा शार्क उजवीकडे सरकतो का हे तपासण्यासाठी प्रोग्राम चालविण्यासाठी हिरव्या झेंड्यावर क्लिक करा.
 
 --- /task ---
 
