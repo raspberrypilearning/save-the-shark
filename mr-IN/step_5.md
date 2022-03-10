@@ -1,30 +1,30 @@
-## Feed the shark
+## शार्कला खायला द्या
 
-At the moment, when you play the game, the shark needs to avoid the plastic or the game ends. In this step, you will add fish that the shark can eat to increase its health.
+या क्षणी, तुम्ही गेम प्ले केल्यावर, शार्कने प्लास्टीक टाळणे किंवा गेम समाप्त करणे आवश्यक आहे. या टप्प्यात, तुम्ही शार्क त्याचे आरोग्य वाढवण्यासाठी खाणे आवश्यक असलेली फिश जोडाल.
 
 --- task ---
 
-Add the **Fish** sprite to your project.
+तुमच्या प्रोजेक्टला **Fish** स्प्राईट जोडा.
 
-![image showing search and selection of fish sprite](images/add-fish.png)
+![fish स्प्राईटचा शोध आणि निवड दाखवणारी इमेज](images/add-fish.png)
 
 --- /task ---
 
-The code for the **Fish** sprite is almost identical to the code for the **Plastic** sprite.
+**Fish** स्प्राईटसाठीचा कोड जवळपास **Plastic** स्प्राईटसाठीच्या कोडसारखाच आहे.
 
 --- task ---
 
-Drag and drop the three scripts from the **Plastic** sprite onto the **Fish** sprite in the Sprite list.
+**Plastic** स्प्राईट मधील तीन स्क्रिप्ट Sprite लीस्टमधील **Fish** स्प्राईटमध्ये ड्रॅग आणि ड्रॉप करा.
 
-![copy scripts](images/copy-scripts.gif)
+![स्क्रिप्ट्स कॉपी करा](images/copy-scripts.gif)
 
 --- /task ---
 
 --- task ---
 
-Now, you can edit the code that reduces the shark's health so that it increases its health by `1` instead:
+आता, तुम्ही शार्कचे आरोग्य कमी करणारा कोड एडिट करू शकता जेणेकरून तो त्याचे आरोग्य `1` ने वाढवू शकेल:
 
-![fish sprite](images/fish-sprite.png)
+![fish स्प्राईट](images/fish-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -38,15 +38,15 @@ delete this clone
 
 --- task ---
 
-Set the **Fish** sprite size property to `40` percent and the direction property to `180` degrees.
+**Fish** स्प्राईट साईज प्रॉपर्टी `40` टक्क्यांना आणि डायरेक्शन प्रॉपर्टी `180` डिग्रीला सेट करा.
 
-![the size and direction properties for the fish sprite.](images/fish-properties.png)
+![fish स्प्राईटसाठी साईज आणि डायरेक्शन प्रॉपर्टी.](images/fish-properties.png)
 
 --- /task ---
 
 --- task ---
 
-Run the program again to test that the health of the shark increases if it eats fish.
+शार्क मासे खाल्ल्यास त्याचे आरोग्य वाढते याची चाचणी घेण्यासाठी प्रोग्राम पुन्हा रन करा.
 
 --- /task ---
 
