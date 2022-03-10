@@ -1,12 +1,12 @@
-## Add plastic waste
+## ప్లాస్టిక్ వ్యర్థాలను జోడించండి
 
-In this step, you will add plastic waste to your game.
+ఈ దశలో, మీరు మీ ఆటకు ప్లాస్టిక్ వ్యర్థాలను జోడిస్తారు.
 
-In the Sprite list below the Stage, click on the sprite that looks like a plastic bottle. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
+Stage దిగువన ఉన్న sprite జాబితాలో, ప్లాస్టిక్ బాటిల్‌లా కనిపించే sprite పై క్లిక్ చేయండి. ఈ sprite లో నాలుగు costumes ఉన్నాయి: ఒక సీసా, ఒక రేపర్, ఒక బ్యాగ్ మరియు ఒక ప్లాస్టిక్ క్యాన్ హోల్డర్.
 
 --- task ---
 
-When the green flag is clicked, the **Plastic** sprite needs to move to the top of the Stage and then `hide`{:class="block3looks"}. Add the following code to the **Plastic** sprite:
+ఆకుపచ్చ జెండాను క్లిక్ చేసినప్పుడు, **Plastic** sprite, Stage పైభాగానికి వెళ్లి, ఆపై `hide`{:class="block3looks"} అవ్వాలి. కింది కోడ్‌ను **Plastic** sprite కు జోడించండి:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -20,7 +20,7 @@ hide
 
 --- task ---
 
-The **Plastic** sprite now needs to randomly generate clones of itself. Add the following code:
+**Plastic** sprite ఇప్పుడు రాండమ్ గా దానికదే క్లోన్‌లను ఉత్పత్తి చేయాలి. కింది కోడ్‌ను జోడించండి:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -37,7 +37,7 @@ wait (pick random (1) to (5)) seconds
 
 --- task ---
 
-When a clone is created, the clone needs to `show`{:class="block3looks"} itself, pick a `random`{:class="block3operators"} `costume`{:class="block3looks"}, and then move to a `random`{:class="block3operators"} `x`{:class="block3motion"} position. Add the following code as a new script:
+క్లోన్‌ని సృష్టించినప్పుడు, అది `show`{:class="block3looks"} అవ్వాలి మరియు, `random`{:class="block3operators"} `costume`{:class="block3looks"} ఎంచుకోవాలి, ఆపై `random`{:class="block3operators"} `x`{:class="block3motion"} స్థానానికి కదలాలి. కింది కోడ్‌ని కొత్త స్క్రిప్ట్‌గా జోడించండి:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -52,9 +52,9 @@ go to x: (pick random (-200) to (200)) y: (200)
 
 --- task ---
 
-You want the plastic to move towards the bottom of the Stage at a  `random`{:class="block3operators"} speed, so create a new `variable`{:class="block3variables"} called `speed`. Set it to `For this sprite only`:
+మీరు ప్లాస్టిక్‌ను `random`{:class="block3operators"} వేగంతో Stage దిగువకు తరలించాలనుకుంటున్నారు, కాబట్టి కొత్త `variable`{:class="block3variables"} ని సృష్టించండి మరియు దానిని  `Speed` అని పిలవండి. `For this sprite only` కి దానిని సెట్ చేయండి:
 
-![new variable menu](images/speed-variable.png)
+![కొత్త వేరియబుల్ మెను](images/speed-variable.png)
 
 
 
@@ -62,7 +62,7 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
+`Speed`{:class="block3variables"}ని ఒక `random`{:class="block3operators"} సంఖ్యగా సెట్ చేయండి. `repeat until`{:class="block3control"} బ్లాక్ ని ఉపయోగించండి, ఇది y అక్షం ( Stage దిగువన) పై `-180` వరకు క్లోన్ చేరుకోగానే కనుగొంటుంది. `Speed`{:class="block3variables"} వేరియబుల్‌ని ఉపయోగించి క్లోన్‌ను Stage క్రిందికి తరలించండి. చివరకు, `0.1` సెకండ్లకు `wait`{:class="block3control"} బ్లాక్‌ని జోడించండి, తద్వారా మీరు కదలికను చూడవచ్చు:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -80,11 +80,11 @@ wait (0.1) seconds
 
 --- /task ---
 
-Run your game, and you should see the plastic waste falling from random positions and at random speeds from the top of the Stage. The problem is that the waste accumulates at the bottom of the Stage, and stays there.
+మీ గేమ్‌ను అమలు చేయండి మరియు ప్లాస్టిక్ వ్యర్థాలు యాదృచ్ఛిక స్థానాల నుండి మరియు Stage పై నుండి యాదృచ్ఛిక వేగంతో పడిపోవడాన్ని మీరు చూడాలి. సమస్య ఏమిటంటే Stage దిగువన చెత్త పేరుకుపోయి అక్కడే ఉండిపోతుంది.
 
 --- task ---
 
-Add a `delete this clone`{:class="block3control"} block so that the **Plastic** sprite deletes itself when it hits the bottom of the Stage:
+`delete this clone`{:class="block3control"} బ్లాక్‌ని జోడించండి, తద్వారా **Plastic** sprite, Stage దిగువన తాకినప్పుడు దానికదే తొలగించబడుతుంది:
 
 ![plastic sprite](images/plastic-sprite.png)
 
