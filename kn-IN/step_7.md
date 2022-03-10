@@ -1,10 +1,10 @@
-## What next?
+## ಮುಂದೆ ಏನು?
 
-In this project, you have:
-+ Picked `random`{:class="block3operators"} numbers to change the costumes and behaviour of `cloned`{:class="block3control"} **Plastic** and **Fish** sprites
-+ Learned how to generate and delete `clones`{:class="block3control"} so that they appear to fall away
-+ Created a game that raises awareness about the harm caused to sharks by plastic in the oceans
+ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ನೀವು:
++ `cloned`{:class="block3control"} **Plastic** ಮತ್ತು **Fish** ಸ್ಪ್ರೈಟ್‌ಗಳ ಉಡುಪುಗಳನ್ನು ಮತ್ತು ವರ್ತನೆಯನ್ನುಬದಲಾಯಿಸಲು `random`{:class="block3operators"} ಸಂಖ್ಯೆಗಳನ್ನು ಆಯ್ದುಕೊಂಡಿರಿ
++ `clones`{:class="block3control"} ನ್ನು ಉತ್ಪತ್ತಿ ಮಾಡಲು ಮತ್ತು ಅಳಿಸಲು ಕಲಿತಿರಿ ಅದರಿಂದ ಅವುಗಳು ಬೀಳುವಂತೆ ಕಾಣಿಸುತ್ತವೆ
++ ಸಮುದ್ರಗಳಲ್ಲಿ ಪ್ಲಾಸ್ಟಿಕ್‌ನಿಂದ ಶಾರ್ಕ್‌ಗಳಿಗೆ ಆಗುವ ಹಾನಿಯ ಬಗ್ಗೆ ಜಾಗೃತಿ ಮೂಡಿಸುವ ಆಟವನ್ನು ರಚಿಸಿದಿರಿ
 
-If you have been following the [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet) projects, then try out the project [Tree life simulator](https://projects.raspberrypi.org/en/projects/tree-life-simulator).
+ನೀವು [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet) ಪ್ರಾಜೆಕ್ಟ್‌ಗಳನ್ನು ಅನುಸರಿಸುತ್ತಿರುವಿರಾದರೆ, [Tree life simulator](https://projects.raspberrypi.org/en/projects/tree-life-simulator) ಪ್ರಾಜೆಕ್ಟ್ ಪ್ರಯತ್ನಿಸಿ.
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+ನೀವು ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಆನಂದಿಸಿದ್ದೀರಾ? ನೀವು ತಪ್ಪುನ್ನು ಪತ್ತೆ ಮಾಡಿದ್ದೀರಾ? ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ **Send feedback** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಮಗೆ ತಿಳಿಸಿ!
