@@ -1,23 +1,25 @@
 ---
-title: Save the shark
+title: సొరచేపను రక్షించండి
 hero_image: images/banner.png
-description: Create a game to save the shark from plastic pollution and improve its health
+description: ప్లాస్టిక్ కాలుష్యం నుండి సొరచేపని రక్షించడానికి మరియు దాని ఆరోగ్యాన్ని మెరుగుపరచడానికి గేమ్‌ను రూపొందించండి
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-08-17"
+last_tested: '2020-08-17'
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
+    completion: engaged
   - 
-    title: Move the shark
+    title: సొరచేపని తరలించండి
   - 
-    title: Add plastic waste
+    title: ప్లాస్టిక్ వ్యర్థాలను జోడించండి
   - 
-    title: Monitor the shark's health
+    title: సొరచేప ఆరోగ్యాన్ని పర్యవేక్షించండి
   - 
-    title: Feed the shark
+    title: సొరచేపకు ఆహారం ఇవ్వండి
+    completion: internal
   - 
-    title: Share your project
+    title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?
