@@ -1,0 +1,18 @@
+---
+title: शार्क बचाओ
+hero_image: images/banner.png
+description: प्लास्टिक प्रदूषण से शार्क को बचाने और उसके स्वास्थ्य में सुधार के लिए एक गेम बनाएं
+version: 4
+listed: true
+copyedit: false
+last_tested: '2020-08-17'
+steps:
+  - title: परिचय
+    completion: engaged
+  - title: शार्क को हिलाएँ
+  - title: प्लास्टिक कचरा जोड़ें
+  - title: शार्क के स्वास्थ्य की निगरानी करें
+  - title: शार्क को खिलाएं
+    completion: internal
+  - title: अपना प्रॉजेक्ट साझा करें
+  - title: आगे क्या?
