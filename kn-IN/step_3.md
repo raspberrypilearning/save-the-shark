@@ -1,14 +1,14 @@
-## Add plastic waste
+## ಪ್ಲಾಸ್ಟಿಕ್ ತ್ಯಾಜ್ಯವನ್ನು ಸೇರಿಸಿ
 
-In this step, you will add plastic waste to your game.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ಆಟಕ್ಕೆ ಪ್ಲಾಸ್ಟಿಕ್‌ ತ್ಯಾಜ್ಯವನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
-In the Sprite list below the Stage, click on the sprite that looks like a plastic bottle. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
+Stage ಕೆಳಗಿರುವ Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ, ಪ್ಲಾಸ್ಟಿಕ್‌ ಬಾಟಲಿಯಂತೆ ಕಾಣಿಸುವ ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಈ ಸ್ಪ್ರೈಟ್‌ಗೆ ನಾಲ್ಕು ಉಡುಪುಗಳಿವೆ: ಒಂದು ಬಾಟಲಿ, ಒಂದು ಹೊದಿಕೆ, ಒಂದು ಚೀಲ, ಮತ್ತು ಒಂದು ಪ್ಲಾಸ್ಟಿಕ್‌ ಕ್ಯಾನ್‌ ಹೋಲ್ಡರ್.
 
 --- task ---
 
-When the green flag is clicked, the **Plastic** sprite needs to move to the top of the Stage and then `hide`{:class="block3looks"}. Add the following code to the **Plastic** sprite:
+ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, **Plastic** ಸ್ಪ್ರೈಟ್‌ Stage ನ ಮೇಲಕ್ಕೆ ಚಲಿಸಬೇಕು ಮತ್ತು ನಂತರ `hide`{:class="block3looks"}. **Plastic** ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೆಳಗಿನ ಕೋಡ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -20,9 +20,9 @@ hide
 
 --- task ---
 
-The **Plastic** sprite now needs to randomly generate clones of itself. Add the following code:
+**Plastic** ಸ್ಪ್ರೈಟ್‌ ಈಗ ತನ್ನ ತದ್ರೂಪಗಳನ್ನು ಯಾದೃಚ್ಛಿಕವಾಗಿ ಉತ್ಪತ್ತಿಮಾಡಬೇಕು. ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,9 +37,9 @@ wait (pick random (1) to (5)) seconds
 
 --- task ---
 
-When a clone is created, the clone needs to `show`{:class="block3looks"} itself, pick a `random`{:class="block3operators"} `costume`{:class="block3looks"}, and then move to a `random`{:class="block3operators"} `x`{:class="block3motion"} position. Add the following code as a new script:
+ತದ್ರೂಪವು ರಚನೆಯಾದಾಗ, ತದ್ರೂಪವು ತನ್ನನ್ನು ತಾನು `show`{:class="block3looks"} ಮಾಡಬೇಕು, `random`{:class="block3operators"} `costume`{:class="block3looks"} ಆಯ್ದುಕೊಳ್ಳಬೇಕು, ಮತ್ತು ನಂತರ `random`{:class="block3operators"} `x`{:class="block3motion"} ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸಬೇಕು. ಈ ಕೆಳಗಿನ ಕೋಡ್‌ನ್ನು ಹೊಸ ಬರಹವಾಗಿ ಸೇರಿಸಿ:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -52,9 +52,9 @@ go to x: (pick random (-200) to (200)) y: (200)
 
 --- task ---
 
-You want the plastic to move towards the bottom of the Stage at a  `random`{:class="block3operators"} speed, so create a new `variable`{:class="block3variables"} called `speed`. Set it to `For this sprite only`:
+ನಿಮಗೆ ಪ್ಲಾಸ್ಟಿಕ್‌  Stage ನ ಕೆಳಭಾಗದೆಡೆಗೆ  `random`{:class="block3operators"} ವೇಗದಲ್ಲಿ ಚಲಿಸಬೇಕು, ಆದುದರಿಂದ ನೀವು  `speed` ಎನ್ನುವ ಹೊಸ `variable`{:class="block3variables"} ರಚಿಸುತ್ತೀರಿ. ಅದನ್ನು `For this sprite only`ಗೆ ಹೊಂದಿಸಿ:
 
-![new variable menu](images/speed-variable.png)
+![ಹೊಸ ವೇರಿಯೇಬಲ್‌ ಮೆನು](images/speed-variable.png)
 
 
 
@@ -62,9 +62,9 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
+`speed`{:class="block3variables"} ನ್ನು `random`{:class="block3operators"} ಸಂಖ್ಯೆಯಾಗಿ ಹೊಂದಿಸಿ. `repeat until`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಉಪಯೋಗಿಸಿ, ಅದು ತದ್ರೂಪವು y ಅಕ್ಷದ ಮೇಲೆ `-180` ತುಲುಪಿದಾಗ (ವೇದಿಕೆಯ ಕೆಳಭಾಗ) ಪತ್ತೆ ಹಚ್ಚುತ್ತದೆ. `speed`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ ಉಪಯೋಗಿಸಿ ತದ್ರೂಪವನ್ನು Stage ಕೆಳಗೆ ಚಲಿಸಿ. ಮತ್ತು ಅಂತಿಮವಾಗಿ, `wait`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು `0.1` ಸೆಕೆಂಡುಗಳ ಮೌಲ್ಯದೊಂದಿಗೆ ಸೇರಿಸಿ, ಅದರಿಂದ ನೀವು ಚಲನೆಯನ್ನು ನೋಡಬಹುದು:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -80,13 +80,13 @@ wait (0.1) seconds
 
 --- /task ---
 
-Run your game, and you should see the plastic waste falling from random positions and at random speeds from the top of the Stage. The problem is that the waste accumulates at the bottom of the Stage, and stays there.
+ನಿಮ್ಮ ಆಟವನ್ನು ರನ್‌ ಮಾಡಿ, ಮತ್ತು Stage ಮೇಲಿನಿಂದ ಪ್ಲಾಸ್ಟಿಕ್‌ ತ್ಯಾಜ್ಯ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಗಳಿಂದ ಮತ್ತು ಯಾದೃಚ್ಛಿಕ ವೇಗಗಳಿಂದ ಬೀಳುವುದನ್ನು ನೀವು ನೋಡಬೇಕು. ಸಮಸ್ಯೆ ಎಂದರೆ Stage ನ ಕೆಳಭಾಗದಲ್ಲಿ ತ್ಯಾಜ್ಯ ಸಂಗ್ರಹಗೊಂಡು ಅಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ.
 
 --- task ---
 
-Add a `delete this clone`{:class="block3control"} block so that the **Plastic** sprite deletes itself when it hits the bottom of the Stage:
+Stage ನ ಕೆಳಭಾಗವನ್ನು ಬಡಿದಾಗ **Plastic** ಸ್ಪ್ರೈಟ್‌ ತನ್ನನ್ನು ತಾನೆ ಅಳಿಸಿಹಾಕಲು `delete this clone`{:class="block3control"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
