@@ -1,22 +1,22 @@
-## Move the shark
+## సొరచేపని కదిలించండి
 
-In this step, you will add code to allow the player to use a mouse to control the motion of a shark on the Stage.
+ఈ దశలో, Stage పై సొరచేప కదలికను నియంత్రించడానికి మౌస్‌ని ఉపయోగించేందుకు ప్లేయర్‌ని అనుమతించడానికి మీరు కోడ్‌ని జోడిస్తారు.
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/save-the-shark-on){:target="_blank"} in Scratch.
+**Online:** Scratch లో [స్టార్టర్ ప్రాజెక్ట్ ](http://rpf.io/save-the-shark-on){:target="_blank"} ని తెరవండి.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** Scratch యొక్క ఆఫ్ లైన్ ఎడిటర్ లో [ప్రాజెక్టు స్టార్టర్ ఫైల్](http://rpf.io/p/en/save-the-shark-get){:target="_blank"} ని తెరవండి. మీకు అవసరమైతే, మీరు [ఇక్కడ Scratch ను డౌన్ లోడ్ చేసి ఇన్‌స్టాల్ చేయవచ్చు.](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
-In the starter project, you should see a **Shark** sprite, against an underwater background.
+స్టార్టర్ ప్రాజెక్ట్‌లో, మీరు జలాంతర నేపథ్యంలో **Shark**  sprite ను చూడవచ్చు.
 
-![starter project](images/starter_project.png)
+![స్టార్టర్ ప్రాజెక్ట్](images/starter_project.png)
 
 --- task ---
 
-When the green flag is clicked, the shark needs to start at the bottom of the Stage. Add this code so that the **Shark** sprite starts in the correct position:
+ఆకుపచ్చ జెండాను క్లిక్ చేసినప్పుడు, సొరచేప Stage దిగువన ప్రారంభించాలి. ఈ కోడ్‌ని జోడించండి, తద్వారా **Shark** sprite సరైన స్థానంలో ప్రారంభమవుతుంది:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -27,11 +27,11 @@ go to x: (0) y: (-120)
 
 --- /task ---
 
-To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of the shark. Luckily, Scratch's `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
+ఈ ప్రాజెక్ట్‌ను మొబైల్ పరికరాలకు అనుకూలంగా చేయడానికి, మీరు ఎడమ మౌస్ బటన్‌ను నొక్కినప్పుడు లేదా వేలు స్క్రీన్‌ను తాకినప్పుడు, సొరచేప కదలికను నియంత్రించడానికి కర్సర్ స్థానాన్ని ఉపయోగిస్తారు. అదృష్టవశాత్తూ, Scratch యొక్క `mouse down`{:class="block3sensing"} బ్లాక్ మౌస్ బటన్‌లపై మరియు టచ్‌స్క్రీన్‌లపై వేళ్లకు పని చేస్తుంది!
 
 --- task ---
 
-Your program needs to continuously detect when the left mouse button is pressed. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
+ఎడమ మౌస్ బటన్‌ను నొక్కినప్పుడు మీ ప్రోగ్రామ్ నిరంతరం గుర్తించవలసి ఉంటుంది. దీనికోసం, `forever`{:class="block3control"} లూప్‌ని స్క్రిప్ట్ కి జోడించి, ఆపై `if ... then `{:class="block3control"} బ్లాక్‌ని, `mouse down`{:class="block3sensing"} ని గుర్తించడానికి ఉపయోగించండి:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -46,11 +46,11 @@ if <mouse down?> then
 
 --- task ---
 
-If the user clicks the cursor closer to the left-hand side of the Stage than the **Shark** sprite's position, then the **Shark** sprite moves to the left.
+**Shark** sprite స్థానం కంటే Stage కి ఎడమ వైపుకు దగ్గరగా క్లిక్ చేస్తే, **Shark** sprite ఎడమవైపుకు కదులుతుంది.
 
-This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
+X అక్షం వెంట కర్సర్ యొక్క స్థానం `mouse x`{:class="block3sensing"} బ్లాక్‌లో నిల్వ చేయబడినందున ఈ చర్య సాధ్యమవుతుంది.
 
-To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the **Shark** sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"} `-10` to move to the left:
+యూజర్ ఎక్కడ క్లిక్ చేస్తారో దానికి ప్రోగ్రామ్‌ ప్రతిస్పందించేలా చేయడానికి, క్రింది బ్లాక్‌లను జోడించండి: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} **Shark** sprite యొక్క `x position `{:class="block3motion"} కంటే `less than `{:class=" block3operators"} ఉంటే `then`{:class="block3control"} sprite ఎడమవైపుకు వెళ్లడానికి `change x by ` {:class="block3motion"} `-10` కి మార్చాలి:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -68,13 +68,13 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the left when you click to the left of the shark.
+మీరు షార్క్ ఎడమవైపు క్లిక్ చేసినప్పుడు షార్క్ ఎడమవైపుకు కదులుతుందో లేదో పరీక్షించడానికి ప్రోగ్రామ్‌ను అమలు చేయడానికి ఆకుపచ్చ జెండాపై క్లిక్ చేయండి.
 
 --- /task ---
 
 --- task ---
 
-When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} the **Shark** sprite should `change x by`{:class="block3motion"} `10` to move to the right. Add the following blocks:
+మౌస్ క్లిక్ చేసినప్పుడు `if`{:class="block3control"} `mouse x`{:class="block3sensing"} `x position`{:class="block3motion"} కంటే `greater than `{:class="block3operators"} ఉంటే `then`{:class="block3control"} sprite **Shark** కుడి వైపుకు వెళ్లడానికి `change x by`{:class="block3motion"} `10` కి మార్చాలి. కింది బ్లాక్‌లను జోడించండి:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -96,7 +96,7 @@ next costume
 
 --- task ---
 
-Click on the green flag to run the program to test that the shark moves to the right when you click to the right of the shark.
+మీరు షార్క్ కుడివైపు క్లిక్ చేసినప్పుడు షార్క్ కుడివైపుకి కదులుతుందో లేదో పరీక్షించడానికి ప్రోగ్రామ్‌ను అమలు చేయడానికి ఆకుపచ్చ జెండాపై క్లిక్ చేయండి.
 
 --- /task ---
 
