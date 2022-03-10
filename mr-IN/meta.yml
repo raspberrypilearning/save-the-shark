@@ -1,23 +1,25 @@
 ---
-title: Save the shark
+title: शार्क वाचवा
 hero_image: images/banner.png
-description: Create a game to save the shark from plastic pollution and improve its health
+description: शार्कला प्लास्टिकच्या प्रदूषणापासून वाचवण्यासाठी आणि त्याचे आरोग्य सुधारण्यासाठी एक गेम तयार करा
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-08-17"
+last_tested: '2020-08-17'
 steps:
   - 
-    title: Introduction
+    title: परिचय
+    completion: engaged
   - 
-    title: Move the shark
+    title: शार्क हलवा
   - 
-    title: Add plastic waste
+    title: प्लास्टिक कचरा जोडा
   - 
-    title: Monitor the shark's health
+    title: शार्कच्या आरोग्यावर लक्ष ठेवा
   - 
-    title: Feed the shark
+    title: शार्कला खायला द्या
+    completion: internal
   - 
-    title: Share your project
+    title: तुमचा प्रोजेक्ट शेअर करा
   - 
-    title: What next?
+    title: पुढे काय?
