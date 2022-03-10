@@ -1,16 +1,16 @@
-## Monitor the shark's health
+## సొరచేప ఆరోగ్యాన్ని పర్యవేక్షించండి
 
-In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
+ఈ దశలో, మీరు హెల్త్ పాయింట్‌లను చేర్చడానికి `variable`{:class="block3variables"}ని ఉపయోగిస్తారు. పొరపాటున ప్లాస్టిక్ వ్యర్థాలను తింటే షార్క్ ఆరోగ్యం తగ్గిపోతుంది.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `health`.
+`health`అనే కొత్త `variable`{:class="block3variables"} (వేరియబుల్) ని సృష్టించండి.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Shark** sprite in the Sprite list. Add blocks so that when the game starts, the shark's health is set to `20`, and when the shark's health goes below `0`, the game ends:
+Sprite జాబితాలో **Shark** sprite పై క్లిక్ చేయండి. బ్లాక్‌లను జోడించండి, తద్వారా గేమ్ ప్రారంభమైనప్పుడు, షార్క్ ఆరోగ్యం `20`కి సెట్ చేయబడుతుంది మరియు షార్క్ ఆరోగ్యం `0`కంటే తక్కువగా ఉన్నప్పుడు, గేమ్ ముగుస్తుంది:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -34,7 +34,7 @@ stop (all v)
 
 --- task ---
 
-Go back to the **Plastic** sprite. Add some code to reduce the shark's health by `-5` if it accidentally eats any of the plastic:
+**Plastic** sprite కి తిరిగి వెళ్లండి. షార్క్ పొరపాటున ఏదైనా ప్లాస్టిక్‌ని తింటే దాని ఆరోగ్యాన్ని `-5` పాయింట్లు తగ్గించడానికి కొంత కోడ్‌ ను జోడించండి:
 
 ![plastic sprite](images/plastic-sprite.png)
 
@@ -50,7 +50,7 @@ delete this clone
 
 --- task ---
 
-Run the program again to test that the health of the shark reduces if it eats plastic.
+షార్క్ ప్లాస్టిక్ తింటే దాని ఆరోగ్యం తగ్గిపోతుందని పరీక్షించడానికి ప్రోగ్రామ్‌ను మళ్లీ అమలు చేయండి.
 
 --- /task ---
 
