@@ -1,23 +1,25 @@
 ---
-title: Save the shark
+title: ಶಾರ್ಕ್‌ನ್ನು ಉಳಿಸಿ
 hero_image: images/banner.png
-description: Create a game to save the shark from plastic pollution and improve its health
+description: ಪ್ಲಾಸ್ಟಿಕ್ ಮಾಲಿನ್ಯದಿಂದ ಶಾರ್ಕ್‌ನ್ನು ಉಳಿಸಲು ಮತ್ತು ಅದರ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು ಆಟವನ್ನು ರಚಿಸಿ
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-08-17"
+last_tested: '2020-08-17'
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
+    completion: engaged
   - 
-    title: Move the shark
+    title: ಶಾರ್ಕ್‌ನ್ನು ಚಲಿಸಿ
   - 
-    title: Add plastic waste
+    title: ಪ್ಲಾಸ್ಟಿಕ್ ತ್ಯಾಜ್ಯವನ್ನು ಸೇರಿಸಿ
   - 
-    title: Monitor the shark's health
+    title: ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು ಗಮನಿಸಿ
   - 
-    title: Feed the shark
+    title: ಶಾರ್ಕ್‌ಗೆ ಆಹಾರ ನೀಡಿ
+    completion: internal
   - 
-    title: Share your project
+    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಹಂಚಿಕೊಳ್ಳಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
