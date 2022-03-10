@@ -1,18 +1,18 @@
-## Monitor the shark's health
+## ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು ಗಮನಿಸಿ
 
-In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಆರೋಗ್ಯದ ಅಂಶಗಳನ್ನು ಸೇರಿಸಲು `variable`{:class="block3variables"} ಉಪಯೋಗಿಸುವಿರಿ. ಶಾರ್ಕ್‌ ಆಕಸ್ಮಾತ್‌ ಆಗಿ ಪ್ಲಾಸ್ಟಿಕ್‌ ತ್ಯಾಜ್ಯ ತಿಂದರೆ ಅದರ ಆರೋಗ್ಯ ಕುಸಿಯುತ್ತದೆ.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `health`.
+`health` ಎಂದು ಕರೆಯುವ ಹೊಸ `variable`{:class="block3variables"} ರಚಿಸಿ.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Shark** sprite in the Sprite list. Add blocks so that when the game starts, the shark's health is set to `20`, and when the shark's health goes below `0`, the game ends:
+Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿರುವ **Shark** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಅದರಿಂದ ಆಟ ಪ್ರಾರಂಭವಾದಾಗ, ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು `20` ಕ್ಕೆ ಹೊಂದಿಸಲಾಗಿರುತ್ತದೆ, ಮತ್ತು ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯ `0` ಕ್ಕಿಂತ ಕೆಳಕ್ಕೆ ಹೋದಾಗ, ಆಟ ಮುಗಿಯುತ್ತದೆ:
 
-![shark sprite](images/shark-sprite.png)
+![ಶಾರ್ಕ್‌ ಸ್ಪ್ರೈಟ್](images/shark-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,9 +34,9 @@ stop (all v)
 
 --- task ---
 
-Go back to the **Plastic** sprite. Add some code to reduce the shark's health by `-5` if it accidentally eats any of the plastic:
+**Plastic** ಸ್ಪ್ರೈಟ್‌ಗೆ ಮತ್ತೆ ಹೋಗಿ. ಶಾರ್ಕ್‌ ಯಾವುದಾದರೂ ಪ್ಲಾಸ್ಟಿಕ್‌ನ್ನು ಆಕಸ್ಮಿಕವಾಗಿ ತಿಂದರೆ ಅದರ ಆರೋಗ್ಯ `-5` ರಷ್ಟು ಕುಸಿಯಲು ಯಾವುದಾದರೂ ಕೋಡ್‌ ಸೇರಿಸಿ:
 
-![plastic sprite](images/plastic-sprite.png)
+![ಪ್ಲಾಸ್ಟಿಕ್‌ ಸ್ಪ್ರೈಟ್](images/plastic-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -50,7 +50,7 @@ delete this clone
 
 --- task ---
 
-Run the program again to test that the health of the shark reduces if it eats plastic.
+ಶಾರ್ಕ್ ಪ್ಲಾಸ್ಟಿಕ್ ತಿಂದರೆ ಅದರ ಆರೋಗ್ಯ ಕುಸಿಯುತ್ತದೆ ಎಂದು ಪರೀಕ್ಷಿಸಲು ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಮತ್ತೊಮ್ಮೆ ರನ್ ಮಾಡಿ.
 
 --- /task ---
 
