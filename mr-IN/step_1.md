@@ -1,14 +1,14 @@
-## Introduction
+## परिचय
 
-Use Scratch to create a game and save the shark! Explore sharks' favourite food source (fish, not humans!), as well as the impact of plastic in the water harming sharks in their natural ocean habitat.
+गेम तयार करण्यासाठी आणि शार्क वाचवण्यासाठी Scratch वापरा! शार्कचे आवडते अन्न स्रोत (मासे, मानव नाही!), तसेच पाण्यातील प्लास्टिकचा प्रभाव शार्कला त्यांच्या नैसर्गिक महासागरातील निवासस्थानात हानी पोहोचवते ते शोधा.
 
-This game engages with two of the United Nations Sustainable Development Goals: [Life Below Water](https://www.undp.org/sustainable-development-goals#below-water){:target="_blank"} and [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}.
+या गेममध्ये संयुक्त राष्ट्रांच्या शाश्वत विकास ध्येयांपैकी दोन ध्येय आहेत: [Life Below Water](https://www.undp.org/sustainable-development-goals#below-water){:target="_blank"} आणि [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}.
 
-### What you will make
+### तुम्ही काय करणार आहात
 
 --- no-print ---
 
-Click to the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
+Click to the left and right of the shark to move it. मासे खाण्याचा प्रयत्न करा आणि प्लास्टिकचे प्रदूषण टाळा.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/416171540/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -18,43 +18,43 @@ Click to the left and right of the shark to move it. Try to eat the fish and avo
 
 --- print-only ---
 
-![Complete project](images/complete.png)
+![प्रोजेक्ट पूर्ण करा](images/complete.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: तुम्हाला काय आवश्यक असेल
 ---
 
-#### Hardware
+#### हार्डवेअर
 
-+ A computer or tablet capable of running Scratch
++ Scracth चालवण्यास सक्षम असलेले कंप्युटर किंवा टॅबलेट
 
-#### Software
+#### सॉफ्टवेअर
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Scratch 3 (एकतर [ऑनलाईन](https://scratch.mit.edu/){:target="_blank"} किंवा [ऑफलाईन](https://scratch.mit.edu/download){:target="_blank"})
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: तुम्ही काय शिकणार
 ---
 
-+ How to use `random`{:class="block3operators"} numbers to change costumes and alter the behaviour of `clones`{:class="block3control"}
-+ How to generate and delete `clones`{:class="block3control"}
-+ How to create a game to raise awareness about an environmental issue
++ `random`{:class="block3operators"} संख्या कॉश्चुम बदलण्यासाठी आणि `clones`{:class="block3control"} चे वागणे बदलण्यासाठी कशा वापरायच्या
++ `clones`{:class="block3control"} कसे निर्माण आणि डिलीट करायचे
++ पर्यावरणीय समस्यांबद्दल जागरूकता वाढविण्यासाठी गेम कसा तयार करायचा
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title:: शिक्षकांसाठी अतिरिक्त माहिती
 ---
 
-You can [find the completed project here](https://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
+तुम्ही [ येथे पूर्ण केलेला प्रोजेक्ट शोधू शकता](https://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"}.
+तुम्हाला प्रोजेक्ट प्रिंट करायचा असल्यास, कृपया [छपाईयंत्र अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"} वापरा.
 
 --- /collapse ---
