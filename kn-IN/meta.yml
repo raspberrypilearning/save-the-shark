@@ -1,18 +1,21 @@
 ---
 title: ಶಾರ್ಕ್‌ನ್ನು ಉಳಿಸಿ
 hero_image: images/banner.png
-description: ಪ್ಲಾಸ್ಟಿಕ್ ಮಾಲಿನ್ಯದಿಂದ ಶಾರ್ಕ್‌ನ್ನು ಉಳಿಸಲು ಮತ್ತು ಅದರ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು ಆಟವನ್ನು ರಚಿಸಿ
+description: ಪ್ಲಾಸ್ಟಿಕ್ ಮಾಲಿನ್ಯದಿಂದ ಶಾರ್ಕ್‌ನ್ನು ಉಳಿಸಲು ಮತ್ತು ಅದರ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು
+  ಆಟವನ್ನು ರಚಿಸಿ
 version: 4
 listed: true
 copyedit: false
 last_tested: '2020-08-17'
 steps:
-  - title: ಪರಿಚಯ
-    completion: engaged
-  - title: ಶಾರ್ಕ್‌ನ್ನು ಚಲಿಸಿ
-  - title: ಪ್ಲಾಸ್ಟಿಕ್ ತ್ಯಾಜ್ಯವನ್ನು ಸೇರಿಸಿ
-  - title: ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು ಗಮನಿಸಿ
-  - title: ಶಾರ್ಕ್‌ಗೆ ಆಹಾರ ನೀಡಿ
-    completion: internal
-  - title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಹಂಚಿಕೊಳ್ಳಿ
-  - title: ಮುಂದೆ ಏನು?
+- title: ಪರಿಚಯ
+- title: ಶಾರ್ಕ್‌ನ್ನು ಚಲಿಸಿ
+- title: ಪ್ಲಾಸ್ಟಿಕ್ ತ್ಯಾಜ್ಯವನ್ನು ಸೇರಿಸಿ
+  completion:
+  - engaged
+- title: ಶಾರ್ಕ್‌ನ ಆರೋಗ್ಯವನ್ನು ಗಮನಿಸಿ
+- title: ಶಾರ್ಕ್‌ಗೆ ಆಹಾರ ನೀಡಿ
+  completion:
+  - internal
+- title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಹಂಚಿಕೊಳ್ಳಿ
+- title: ಮುಂದೆ ಏನು?
