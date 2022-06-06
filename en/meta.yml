@@ -9,11 +9,13 @@ copyedit: false
 last_tested: '2020-08-17'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Move the shark
 - title: Add plastic waste
+  completion:
+  - engaged
 - title: Monitor the shark's health
 - title: Feed the shark
-  completion: internal
+  completion:
+  - internal
 - title: Share your project
 - title: What next?

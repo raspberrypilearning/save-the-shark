@@ -1,18 +1,21 @@
 ---
 title: शार्क वाचवा
 hero_image: images/banner.png
-description: शार्कला प्लास्टिकच्या प्रदूषणापासून वाचवण्यासाठी आणि त्याचे आरोग्य सुधारण्यासाठी एक गेम तयार करा
+description: शार्कला प्लास्टिकच्या प्रदूषणापासून वाचवण्यासाठी आणि त्याचे आरोग्य सुधारण्यासाठी
+  एक गेम तयार करा
 version: 4
 listed: true
 copyedit: false
 last_tested: '2020-08-17'
 steps:
-  - title: परिचय
-    completion: engaged
-  - title: शार्क हलवा
-  - title: प्लास्टिक कचरा जोडा
-  - title: शार्कच्या आरोग्यावर लक्ष ठेवा
-  - title: शार्कला खायला द्या
-    completion: internal
-  - title: तुमचा प्रोजेक्ट शेअर करा
-  - title: पुढे काय?
+- title: परिचय
+- title: शार्क हलवा
+- title: प्लास्टिक कचरा जोडा
+  completion:
+  - engaged
+- title: शार्कच्या आरोग्यावर लक्ष ठेवा
+- title: शार्कला खायला द्या
+  completion:
+  - internal
+- title: तुमचा प्रोजेक्ट शेअर करा
+- title: पुढे काय?
