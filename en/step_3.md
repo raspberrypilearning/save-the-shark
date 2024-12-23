@@ -1,6 +1,6 @@
 ## Add plastic waste
 
-In this step, you will add plastic waste to your game.
+Add plastic waste to your game, for the player to avoid.
 
 In the Sprite list below the Stage, click on the sprite that looks like a plastic bottle. This sprite has four costumes: a bottle, a wrapper, a bag, and a plastic can holder.
 
@@ -62,25 +62,80 @@ You want the plastic to move towards the bottom of the Stage at a  `random`{:cla
 
 --- task ---
 
-Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Use a `repeat until`{:class="block3control"} block which will detect when a clone reaches `-180` on the y axis (the bottom of the stage). Move the clone down the Stage using the `speed`{:class="block3variables"} variable. And finally, add a `wait`{:class="block3control"} block with a value of `0.1` seconds so you can see the movement:
+Set the `speed`{:class="block3variables"} to be a `random`{:class="block3operators"} number. Add a `set speed to`{:class="block3variables"} block below the `go to x: y:`{:class="block3motion"} block and set it to `pick random -1 to -10`.
 
 ![plastic sprite](images/plastic-sprite.png)
-
 ```blocks3
 when I start as a clone
 show
-switch costume to (pick random (1) to (4)
+switch costume to (pick random (1) to (4))
 go to x: (pick random (-200) to (200)) y: (200)
 +set (speed v) to (pick random (-1) to (-10))
-+repeat until <(y position) < (-180)>
-change y by (speed)
-wait (0.1) seconds
-
 ```
 
 --- /task ---
 
-Run your game, and you should see the plastic waste falling from random positions and at random speeds from the top of the Stage. The problem is that the waste accumulates at the bottom of the Stage, and stays there.
+--- task ---
+
+Add a `repeat until`{:class="block3control"} block below the `set speed to`{:class="block3variables"} block. Use the condition `y position < -180` to detect when the clone reaches the bottom of the stage.
+
+![plastic sprite](images/plastic-sprite.png)
+```blocks3
+when I start as a clone
+show
+switch costume to (pick random (1) to (4))
+go to x: (pick random (-200) to (200)) y: (200)
+set (speed v) to (pick random (-1) to (-10))
++repeat until <(y position) < (-180)>
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Inside the `repeat until`{:class="block3control"} block, add a `change y by`{:class="block3motion"} block and set it to `speed`{:class="block3variables"} to move the clone down the stage.
+
+![plastic sprite](images/plastic-sprite.png)
+```blocks3
+when I start as a clone
+show
+switch costume to (pick random (1) to (4))
+go to x: (pick random (-200) to (200)) y: (200)
+set (speed v) to (pick random (-1) to (-10))
+repeat until <(y position) < (-180)>
++change y by (speed)
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Below the `change y by`{:class="block3motion"} block, add a `wait`{:class="block3control"} block and set it to `0.1` seconds so the movement is visible.
+
+![plastic sprite](images/plastic-sprite.png)
+```blocks3
+when I start as a clone
+show
+switch costume to (pick random (1) to (4))
+go to x: (pick random (-200) to (200)) y: (200)
+set (speed v) to (pick random (-1) to (-10))
+repeat until <(y position) < (-180)>
+change y by (speed)
++wait (0.1) seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Test your code. 
+
+Run your game by clicking the green flag, and you should see the plastic waste falling from random positions and at random speeds from the top of the Stage. The problem is that the waste accumulates at the bottom of the Stage, and stays there.
+
+--- /task ---
 
 --- task ---
 

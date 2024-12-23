@@ -1,6 +1,6 @@
 ## Move the shark
 
-In this step, you will add code to allow the player to use a mouse to control the motion of a shark on the Stage.
+Add code to allow the player to use a mouse to control the motion of a shark on the Stage.
 
 --- task ---
 
@@ -44,23 +44,38 @@ if <mouse down?> then
 
 --- /task ---
 
+If the user clicks the mouse on the left-hand side of the **Shark** sprite's position, then the **Shark** sprite should move to the left.
+
 --- task ---
 
-If the user clicks the cursor closer to the left-hand side of the Stage than the **Shark** sprite's position, then the **Shark** sprite moves to the left.
-
-This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
-
-To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the **Shark** sprite, `then`{:class="block3control"} the sprite should `change x by`{:class="block3motion"} `-10` to move to the left:
+Add an `if`{:class="block3control"} block inside the `forever`{:class="block3control"} loop, with the condition `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of the **Shark** sprite.
 
 ![shark sprite](images/shark-sprite.png)
-
 ```blocks3
 when flag clicked
 go to x: (0) y: (-120)
 forever
 if <mouse down?> then
 +if <(mouse x) < (x position)> then
-change x by (-10)
+end
+next costume
+```
+
+--- /task ---
+
+--- task ---
+
+Inside the `if`{:class="block3control"} block, add a `change x by`{:class="block3motion"} block and set the value to `-10` to move the **Shark** sprite to the left.
+
+![shark sprite](images/shark-sprite.png)
+```blocks3
+when flag clicked
+go to x: (0) y: (-120)
+forever
+if <mouse down?> then
+if <(mouse x) < (x position)> then
++change x by (-10)
+end
 next costume
 ```
 

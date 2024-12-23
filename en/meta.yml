@@ -10,12 +10,14 @@ last_tested: '2020-08-17'
 steps:
 - title: Introduction
 - title: Move the shark
-- title: Add plastic waste
   completion:
   - engaged
+- title: Add plastic waste
 - title: Monitor the shark's health
-- title: Feed the shark
   completion:
   - internal
+- title: Feed the shark
+  completion:
+  - external
 - title: Share your project
-- title: What next?
+- title: What can you do now?

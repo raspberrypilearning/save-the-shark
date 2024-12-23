@@ -1,6 +1,6 @@
 ## Monitor the shark's health
 
-In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
+Use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
 
 --- task ---
 
