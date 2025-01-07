@@ -1,6 +1,6 @@
 ## Monitor the shark's health
 
-In this step, you will use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
+Use a `variable`{:class="block3variables"} to include health points. The health of the shark will reduce if it accidentally eats plastic waste.
 
 --- task ---
 
@@ -10,7 +10,7 @@ Create a new `variable`{:class="block3variables"} called `health`.
 
 --- task ---
 
-Click on the **Shark** sprite in the Sprite list. Add blocks so that when the game starts, the shark's health is set to `20`, and when the shark's health goes below `0`, the game ends:
+Click on the **Shark** sprite in the Sprite list. Add blocks so that when the game starts, the shark's health is set to `20`, and when the shark's health goes below `1`, the game ends:
 
 ![shark sprite](images/shark-sprite.png)
 
@@ -22,11 +22,13 @@ forever
 if <mouse down?> then
 if <(mouse x) < (x position)> then
 change x by (-10)
+next costume
 end
 if <(mouse x) > (x position)> then
 change x by (10)
+next costume
 end
-+if <(health) < (0)> then
++if <(health) < (1)> then
 stop (all v)
 ```
 
