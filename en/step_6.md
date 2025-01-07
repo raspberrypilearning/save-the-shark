@@ -1,9 +1,27 @@
-## Share your project
+## Challenge
 
-You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
+Make your project more awesome! You could:
 
-[[[share-scratch]]]
+--- task ---
 
-If you are in a club, why not demonstrate your project to friends and peers?
+Add another sprite that appears rarely, but takes or adds a lot of health.
 
-Based on their feedback, do one thing to improve your project.
+--- /task ---
+
+--- task ---
+
+Add cool sounds to all the actions in your game.
+
+--- /task ---
+
+--- task ---
+
+Add more costumes to the fish, so it appears different by picking a random costume.
+
+--- /task ---
+
+--- task ---
+
+Make it so the game speeds up as time goes on.
+
+--- /task ---

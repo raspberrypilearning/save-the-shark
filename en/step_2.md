@@ -4,9 +4,8 @@ Add code to allow the player to use a mouse to control the motion of a shark on 
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/save-the-shark-on){:target="_blank"} in Scratch.
- 
-**Offline:** open the [project starter file](https://rpf.io/p/en/save-the-shark-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+Open the [starter project](http://rpf.io/save-the-shark-on){:target="_blank"} in Scratch.
+
 
 --- /task ---
 
@@ -27,8 +26,6 @@ go to x: (0) y: (-120)
 
 --- /task ---
 
-To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of the shark. Luckily, Scratch's `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
-
 --- task ---
 
 Your program needs to continuously detect when the left mouse button is pressed. To do this, add a `forever`{:class="block3control"} loop to your script, then use an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
@@ -44,6 +41,7 @@ if <mouse down?> then
 
 --- /task ---
 
+
 If the user clicks the mouse on the left-hand side of the **Shark** sprite's position, then the **Shark** sprite should move to the left.
 
 --- task ---
@@ -58,7 +56,6 @@ forever
 if <mouse down?> then
 +if <(mouse x) < (x position)> then
 end
-next costume
 ```
 
 --- /task ---
@@ -76,8 +73,26 @@ if <mouse down?> then
 if <(mouse x) < (x position)> then
 +change x by (-10)
 end
-next costume
+
 ```
+
+--- /task ---
+
+
+--- task ---
+
+Add a `next costume`{:class="block3looks"} block to the end of your script, so the shark looks like it is swimming when it moves:
+
+![shark sprite](images/shark-sprite.png)
+```blocks3
+when flag clicked
+go to x: (0) y: (-120)
+forever
+if <mouse down?> then
+if <(mouse x) < (x position)> then
+change x by (-10)
++next costume
+end
 
 --- /task ---
 
@@ -102,6 +117,7 @@ if <(mouse x) < (x position)> then
 change x by (-10)
 next costume
 end
+
 +if <(mouse x) > (x position)> then
 change x by (10)
 next costume

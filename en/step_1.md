@@ -1,8 +1,5 @@
-## Introduction
 
 Use Scratch to create a game and save the shark! Explore sharks' favourite food source (fish, not humans!), as well as the impact of plastic in the water harming sharks in their natural ocean habitat.
-
-### What you will make
 
 --- no-print ---
 
@@ -19,8 +16,4 @@ Click to the left and right of the shark to move it. Try to eat the fish and avo
 ![Complete project](images/complete.png)
 
 --- /print-only ---
-
-### What you will need
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
 
