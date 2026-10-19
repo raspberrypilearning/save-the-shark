@@ -19,4 +19,5 @@ steps:
 - title: Feed the shark
   completion:
   - external
-- title: Share your project
+- title: Challenge
+  challenge: true

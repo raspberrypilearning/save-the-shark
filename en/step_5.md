@@ -12,7 +12,7 @@ At the moment, when you play the game, the shark needs to avoid the plastic or t
 
 --- task ---
 
-Rename this 
+Rename the duplicated sprite `Fish`.
 
 --- /task ---
 
